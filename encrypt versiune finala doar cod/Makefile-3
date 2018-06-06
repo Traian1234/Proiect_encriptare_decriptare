@@ -1,0 +1,26 @@
+CC=gcc
+
+CFLAGS=-c -Wall
+
+all: encrypt
+
+encrypt: main.o encrypt_row.o identify.o  search_row.o print_encrypted.o
+	$(CC) main.o encrypt_row.o identify.o  search_row.o print_encrypted.o -o encrypt
+	
+main.o: main.c
+	$(CC) $(CFLAGS) main.c
+	
+encrypt_row.o: encrypt_row.c
+	$(CC) $(CFLAGS) encrypt_row.c
+	
+identify.o: identify.c
+	$(CC) $(CFLAGS) identify.c
+	
+search_row.o: search_row.c
+	$(CC) $(CFLAGS) search_row.c
+	
+print_encrypted.o: print_encrypted.c
+	$(CC) $(CFLAGS) print_encrypted.c
+	
+clean:
+	rm *o encrypt
