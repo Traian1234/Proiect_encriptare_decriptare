@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1525893733 source:c:\users\traian\desktop\new folder\proiect_v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1526057620 source:c:\users\traian\desktop\proiect_v2 - copy\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1526406485 source:c:\users\traian\desktop\proiect - encrypt - copy\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1526407456 source:c:\users\traian\desktop\new folder\proiect - encrypt - copy\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+

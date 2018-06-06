@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1526046873 source:c:\users\traian\desktop\new folder\proiect_v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
